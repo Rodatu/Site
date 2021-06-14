@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css");
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+}
+
+
+header {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/*----------- Banner ------------*/
+
+.img-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.img-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.menu {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    height: 100px;
+
+}
+
+.menu ul {
+    display: flex;
+    margin-left: 75%;
+    margin-top: 38px;
+}
+
+.menu li {
+    margin-left: 20px;
+    list-style-type: none;
+    background-color: #fff;
+    border-radius: 10%;
+    padding: 10px;
+    transition: all .3s;
+}
+
+.menu li:hover {
+    background-color: rgba(255, 255, 255, .8)
+}
+
+.menu a {
+    color: #000; 
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color:rgba(0, 0, 0, .8)
+}
+
+.banner {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+.banner p {
+    font-size: 2rem;
+    font-family: "Roboto";
+    color: #fff;
+}
+
+/*----------- Letra ------------*/
+
+
+#letra {
+    text-align: center;
+    position: relative  ;
+}
+
+#letra h1 {
+    font-size: 3rem;
+    font-family: "Roboto";
+}
+
+#letra h2 {
+    margin-top: 50px;
+    text-align: left;
+    font-family: "Roboto";
+    margin-left: 43%;
+}
+
+#letra h3 {
+    text-align: left;
+    font-family: "Roboto";
+    margin-left: 43%;
+}
+
+#letra #video {
+    font-size: 1.5rem;
+    margin-left: -10%;
+    margin-top: -22.5px;
+    position:absolute;
+    transition: all .5s;
+    text-decoration: none;
+    color: black;
+}
+
+#letra #video:hover {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 2rem;
+}
+
+#letra #text {
+    font-size: 1.5rem;
+    margin-left: 7%;
+    margin-top: -48px;
+    position:absolute;
+    transition: all .5s;
+    text-decoration: none;
+    color: black;
+}
+
+#letra #text:hover {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 2rem;
+}
+
+#letra #map {
+    margin-left: 1%;
+    position: absolute;
+    transition: all .5s;
+}
+
+#letra #map:hover {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 2rem;
+}
+
+#letra #image-francisco {
+    position: absolute;
+    margin-left: -3.1%;
+    transition: all .5s;
+}
+
+#letra #image-francisco:hover {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 2rem;
+}
+
+#letra #audio {
+    position: absolute;
+    transition: all .5s;
+    margin-left: -3.1%;
+}
+
+#letra #audio:hover {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 2rem;
+}
+
+#letra #news {
+    margin-left: 1%;
+    position: absolute;
+    transition: all .5s;
+}
+
+#letra #news:hover {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 2rem;
+}
+
+#letra #image-fish {
+    margin-left: 1%;
+    position: absolute;
+    transition: all .5s;
+}
+
+#letra #image-fish:hover {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 2rem;
+}
+
+#letra #pega-boi {
+    position: absolute;
+    margin-left: -3.1%;
+    transition: all .5s;
+}
+
+#letra #pega-boi:hover {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 2rem;
+}
+
+#letra p {
+    margin-top: 3rem;
+    margin-left: 43%;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+/*----------- Interpretação ------------*/
+
+#interpretacao {
+    width: 100%;
+    height: 100vh;
+    margin-top: 5rem;
+    background-color: rgb(78, 37, 13);
+}
+
+#interpretacao h1 {
+    font-family: "Roboto";
+    text-align: center;
+    padding-top: 2rem;
+    color: #fff;
+}
+
+#interpretacao #inter-wrapper {
+    background-color: #eee;
+    margin-top: 3rem;
+    border-radius: 5%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.521);
+    width: 900px;
+    margin-left: 18%;
+    height: 75%;
+    display: flex;
+}
+
+#interpretacao #inter-wrapper .image-wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 5%;
+}
+
+#interpretacao #inter-wrapper .image-wrapper img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    opacity: .4;
+}
+
+#interpretacao #inter-wrapper .text-wrapper {
+    position: absolute;
+    color: #fff;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+#interpretacao #inter-wrapper .text-wrapper p{
+    height: 100%;
+    width: 50%;
+    border-radius: 5%;
+    font-family: "Roboto";
+}
+
+.hide-video {
+    width: 100px;
+    height: 100px;
+    margin-left: -1000px;
+    position: absolute;
+    transition: all .5s;
+    opacity: 0;
+    
+}
+
+.show-video {
+    margin-left: 400px;
+    transition: all .5s;
+    opacity: 1;
+    z-index: 10;
+}
+
+#video-you p.fechar {
+    margin-left: 230px;
+    color: rgba(0, 0, 0, .5);
+    font-family: "Roboto";
+    cursor: pointer;
+}
+
+
+.text-pop-up {
+    position: absolute;
+    margin-left: -1000px;
+    transition: all .5s;
+    opacity: 0;
+    border-radius: 10px;
+}
+
+
+.show-text-pop-up {
+    margin-left: 180px;
+    opacity: 1;
+}
+
+.fechar {
+    padding-left: 350px;
+    color: rgba(0, 0, 0, .5);
+    font-family: "Roboto";
+    cursor: pointer;
+    padding-bottom: 0px;
+    margin-bottom: -30px;
+}
+
+.texto {
+    color: #fff;
+    background-color: rgba(0, 0, 0, .8);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.map-wrapper {
+    position: absolute;
+    height: 700px;
+    width: 700px;
+    background-color: rgba(0, 0, 0, .8);
+    padding: 2rem;
+    opacity: 0;
+    margin-left: -1200px;
+    margin-top: -2000px;
+    transition: all .5s;
+}
+
+.show-map-wrapper {
+    opacity: 1;
+    margin-left: 300px;
+    transition: all .5s;
+}
+
+.map-wrapper img {
+    height: 100%;
+    width: 100%;
+}
+
+.fechar-map {
+    color: #fff;
+    width: 50%;
+    margin-left: 650px;
+    margin-bottom: 2rem;
+    font-family: "Roboto";
+    cursor: pointer;
+}
+
+.text-map {
+    font-family: "Roboto";
+    color: #fff;
+}
+
+.rio-wrapper {
+    margin-top: -1940px;
+    background-color: rgba(0, 0, 0, .8);
+    width: 500px;
+    padding: 2rem;
+    opacity: 0;
+    margin-left: -2000px;
+    transition: all .5s;
+    z-index: 100;
+    position: absolute;
+}
+
+.image-rio-wrapper {
+    margin-left: 115px;
+    z-index: 100;
+
+}
+
+
+.text-rio-wrapper {
+    font-size: 1.5rem;
+    color: #fff;
+    font-family: "Roboto";
+    text-align: center;
+    z-index: 100;
+    cursor: pointer;
+
+}
+
+.fechar-rio {
+    margin-left: 450px;
+    padding: 10px;
+    margin-bottom: 1rem;
+    color: #fff;
+    z-index: 100;
+    font-family: "Roboto";
+}
+
+.show-rio-wrapper {
+    margin-left: 400px;
+    opacity: 1;
+    z-index: 100;
+}
+
+.audio-wrapper {
+    margin-top: -1800px;
+    z-index: 10;
+    margin-left: -1200px;
+    position: absolute;
+    opacity: 0;
+    transition: all .5s;
+}
+
+.show-audio-wrapper {
+    opacity: 1;
+    margin-left: 400px;
+}
+
+.fechar-audio {
+    margin-left: 450px;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, .8);
+    font-family: "Roboto";
+    cursor: pointer;
+}
+
+.news {
+    position: absolute;
+    margin-top: -1500px;
+    margin-left: -1200px;
+    opacity: 0;
+    transition: all .5s;
+}
+
+.fechar-news {
+    margin-left: 1000px;
+    color: rgba(0, 0, 0, .8);
+    font-size: 1.5rem;
+    font-family: "Roboto";
+    cursor: pointer;
+}
+
+.show-news {
+    opacity: 1;
+    margin-left: 130px;
+}
+
+.fish {
+    position: absolute;
+    margin-left: -1200px;
+    margin-top: -1500px;
+    background-color: rgba(0, 0, 0, .8);
+    border-radius: 10px;
+    padding: 2rem;
+    opacity: 0;
+    transition: all .5s;
+}
+
+.text-fish {
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto";
+}
+
+.fechar-fish {
+    font-family: "Roboto";
+    color: #fff;
+    margin-left: 550px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.show-fish {
+    margin-left: 400px;
+    opacity: 1;
+}
+
+.pega-boi {
+    background-color: rgba(0, 0, 0, .8);
+    width: 50%;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: -1200px;
+    margin-left: -12000px;
+    padding: 2rem;
+    opacity: 0;
+    transition: all .5s;
+}
+
+.image-pega-boi {
+    margin-left: 60px;
+    padding: 2rem;
+}
+
+.text-pega-boi {
+    font-family: "Roboto";
+    color: #fff;
+    text-align: center;
+}
+
+.fechar-boi {
+    margin-left: 600px;
+    color: #fff;
+    font-family: "Roboto";
+}
+
+.show-pega-boi {
+    margin-left: 325px;
+    opacity: 1;
+}
